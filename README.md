@@ -36,13 +36,13 @@ Um bom roteiro de testes é crucial para o sucesso de um projeto, pois minimiza 
 **Objetivo:** Verificar se o sistema permite adicionar um compromisso corretamente.
 
 ### Passos:
-- [ ] Acesse a aplicação.
-- [ ] Preencha o campo "Título do Compromisso" com um título válido.
-- [ ] Preencha o campo "Data/Hora" com uma data e hora válidas.
-- [ ] Clique no botão "Adicionar Compromisso".
+- [x] Acesse a aplicação.
+- [x] Preencha o campo "Título do Compromisso" com um título válido.
+- [x] Preencha o campo "Data/Hora" com uma data e hora válidas.
+- [x] Clique no botão "Adicionar Compromisso".
 
 ### Resultado Esperado:
-- [ ] O compromisso deve aparecer na lista abaixo do formulário com o título e a data/hora corretos.
+- [x] O compromisso deve aparecer na lista abaixo do formulário com o título e a data/hora corretos.
 
 ---
 
@@ -51,12 +51,12 @@ Um bom roteiro de testes é crucial para o sucesso de um projeto, pois minimiza 
 **Objetivo:** Verificar se o sistema permite editar um compromisso existente.
 
 ### Passos:
-- [ ] Na lista de compromissos, clique no botão "Editar" de um compromisso.
-- [ ] Modifique o título e/ou a data/hora no prompt exibido.
-- [ ] Confirme a edição.
+- [x] Na lista de compromissos, clique no botão "Editar" de um compromisso.
+- [x] Modifique o título e/ou a data/hora no prompt exibido.
+- [x] Confirme a edição.
 
 ### Resultado Esperado:
-- [ ] O compromisso editado deve refletir as alterações na lista imediatamente.
+- [x] O compromisso editado deve refletir as alterações na lista imediatamente.
 
 ---
 
@@ -65,11 +65,11 @@ Um bom roteiro de testes é crucial para o sucesso de um projeto, pois minimiza 
 **Objetivo:** Verificar se o sistema permite remover um compromisso.
 
 ### Passos:
-- [ ] Na lista de compromissos, clique no botão "Concluir" de um compromisso.
-- [ ] Confirme a remoção no prompt exibido.
+- [x] Na lista de compromissos, clique no botão "Concluir" de um compromisso.
+- [x] Confirme a remoção no prompt exibido.
 
 ### Resultado Esperado:
-- [ ] O compromisso deve ser removido da lista.
+- [x] O compromisso deve ser removido da lista.
 
 ---
 
@@ -78,14 +78,14 @@ Um bom roteiro de testes é crucial para o sucesso de um projeto, pois minimiza 
 **Objetivo:** Garantir que o sistema valide as entradas corretamente.
 
 ### Passos:
-- [ ] Acesse a aplicação.
-- [ ] Deixe o campo "Título do Compromisso" vazio.
-- [ ] Tente adicionar um compromisso.
-- [ ] Preencha o título e deixe a "Data/Hora" vazia.
-- [ ] Tente adicionar um compromisso.
+- [x] Acesse a aplicação.
+- [x] Deixe o campo "Título do Compromisso" vazio.
+- [x] Tente adicionar um compromisso.
+- [x] Preencha o título e deixe a "Data/Hora" vazia.
+- [x] Tente adicionar um compromisso.
 
 ### Resultado Esperado:
-- [ ] O sistema deve impedir a adição e exibir mensagens de erro apropriadas.
+- [x] O sistema deve impedir a adição e exibir mensagens de erro apropriadas.
 
 ---
 
@@ -94,12 +94,12 @@ Um bom roteiro de testes é crucial para o sucesso de um projeto, pois minimiza 
 **Objetivo:** Verificar se o layout é responsivo em diferentes tamanhos de tela.
 
 ### Passos:
-- [ ] Abra a aplicação em um navegador.
-- [ ] Reduza a largura da janela para simular dispositivos móveis.
-- [ ] Verifique a disposição dos elementos.
+- [x] Abra a aplicação em um navegador.
+- [x] Reduza a largura da janela para simular dispositivos móveis.
+- [x] Verifique a disposição dos elementos.
 
 ### Resultado Esperado:
-- [ ] O layout deve se ajustar corretamente e permanecer funcional em diferentes tamanhos de tela.
+- [x] O layout deve se ajustar corretamente e permanecer funcional em diferentes tamanhos de tela.
 
 ---
 
@@ -108,9 +108,9 @@ Um bom roteiro de testes é crucial para o sucesso de um projeto, pois minimiza 
 **Objetivo:** Verificar se o sistema fornece feedback apropriado ao usuário.
 
 ### Passos:
-- [ ] Adicione um compromisso.
-- [ ] Edite um compromisso.
-- [ ] Remova um compromisso.
+- [x] Adicione um compromisso.
+- [x] Edite um compromisso.
+- [x] Remova um compromisso.
 
 ### Resultado Esperado:
-- [ ] O sistema deve exibir mensagens de confirmação ou alerta em cada uma das ações mencionadas.
+- [x] O sistema deve exibir mensagens de confirmação ou alerta em cada uma das ações mencionadas.
